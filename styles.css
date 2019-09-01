@@ -1,7 +1,8 @@
 body {
-  background-color: rgb(185,179,175); }
+  background-color: LightGrey; }
 h1 {
-  color: black; }
+  font-family: Impact, Haettenschweiler, fantasy; }
+  color: DarkRed; }
 p {
-  background-color: black;
-  color: white; }
+  background-color: DimGrey;
+  color: Gainsboro; }
