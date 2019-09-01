@@ -2,7 +2,8 @@ body {
   background-color: LightGrey; }
 h1 {
   font-family: Impact, Haettenschweiler, fantasy; }
-  color: DarkRed; }
+  color: #8B0000; }
 p {
-  background-color: DimGrey;
-  color: Gainsboro; }
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #696969;
+  color: #DCDCDC; }
