@@ -14,9 +14,11 @@ p {
 ul {
   background: #8B0000;
   padding: 20px;
+  border-radius: 25px;
 }
 
 ul li {
   background: #ff9999;
   margin: 5px;
+  border-radius: 25px;
 }
