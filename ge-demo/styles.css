@@ -42,6 +42,8 @@ a {
 	color: rgba(0, 0, 0, .85);
 	text-decoration: none;
 	padding-bottom: 5px;
+	transition-timing-function: ease-in-out;
+	transition-duration: 200ms;
 }
 
 a:hover {
@@ -50,23 +52,17 @@ a:hover {
 
 /* CLASS STYLINGS */
 /* set display type to flex */
-.trans:hover {
-	transition-duration: 150ms;
-}
-
-.trans-to-l:hover {
-	color: white;
-	text-shadow: 0 0 2px black;
-}
-
 .trans-to-g:hover {
 	color: green;
 }
 
+.trans-underline {
+	color: rgba(0, 0, 0, .85);
+	transition-property: color;
+}
+
 .trans-underline:hover {
-	border-bottom: rgba(0, 0, 0, .85);
-	border-bottom-style: solid;
-	border-bottom-width: 5px;
+	color: rgba(0, 0, 0, .4);
 }
 
 .display-flex {
@@ -94,6 +90,11 @@ a:hover {
 .margin-sides-small {
 	margin-left: 100px;
 	margin-right: 100px;
+}
+
+.margin-sides-s {
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .margin-sides-xs {
@@ -138,11 +139,15 @@ a:hover {
 	list-style: none;
 }
 
+.u-minimal {
+	color: rgba(0, 0, 0, .85);
+	transition-property: text-decoration-line text-decoration-color text-decoration-style;
+}
+
 .u-minimal:hover {
-	padding: 0px;
-	border-bottom: rgba(0, 0, 0, .85);
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
+	text-decoration-line: underline;
+	text-decoration-color: rgba(0, 0, 0, .85);
+	text-decoration-style: solid;
 }
 
 /* light gray text */
@@ -179,6 +184,10 @@ a:hover {
 	background-color: lightgreen;
 }
 
+.bg-light {
+	background-color: rgba(0, 0, 0, .05);
+}
+
 .button {
 	color: white;
 	margin-top: 10px;
@@ -190,12 +199,12 @@ a:hover {
 	border-color: white;
 	border-style: solid;
 	border-radius: 3px;
+	transition-property: background-color color;
 }
 
 .button:hover {
 	background-color: white;
 	color: rgba(0, 0, 0, .85);
-	transition-duration: 150ms;
 }
 
 .button-invert {
