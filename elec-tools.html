@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mickey's Electrical Tools</title>
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Mickey's Electrical Calculation Toolset</h1>
+	<p> Use this page to calculate various variables </p>
+	<div class="power">
+        <table>
+            <tbody>
+            <tr class="power-table-row">
+                <td><label class="cell" for="voltage">Line Voltage:</label></td>
+                <td><input class="cell" type="number" name="voltage" id="voltage" required></td>
+            </tr>
+            <tr class="power-table-row">
+                <label class="cell" for="amperage">Amperage:</label>
+	            <input class="cell" type="number" name="amps" id="amps" required>
+            </tr>
+            <tr class="power-table-row">
+                <label class="cell" for="power-factor">Power Factor:</label>
+                <input class="cell" type="number" name="pf" id="pf" required>
+            </tr>
+        </table>
+        <input type="button" class="button" id="calc" value="Calculate">
+    </div>
+    <p>click <a href="index.html">here</a> to go back to the resources page.</p>
+  </body>
+    <script type="text/javascript" src="elec-tools.js"> </script>
+</html>
